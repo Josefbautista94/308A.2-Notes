@@ -14,6 +14,3 @@ A fully annotated walkthrough of key JavaScript object-oriented programming conc
 - Refactored design using composition (Learner & Grades)
 - Prototype chains in action (manual traversal with `Object.getPrototypeOf`)
 
-## 📚 Why I Made This
-
-I creaed t
