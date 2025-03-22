@@ -407,4 +407,4 @@ do {
 // Cat {}               // prototype of Tabby
 // Animal {}            // prototype of Cat
 // {}                   // Object.prototype
-// null                 // ends the loop (not printed
+// null                 // ends the loop (not printed)
