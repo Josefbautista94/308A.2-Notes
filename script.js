@@ -54,7 +54,7 @@ class Animal { //  class Animal {} Defines a blueprint for creating animals.
     }
 }
 
-const cat1 = new Animal(2, 4, true, false); // Creates a new Animal named cat1 with 2 eyes, 4 legs, is awake, and not moving.
+// const cat1 = new Animal(2, 4, true, false); // Creates a new Animal named cat1 with 2 eyes, 4 legs, is awake, and not moving.
 const cat2 = new Animal(2, 4, false, false); // The same applies for cat2, dog1, and cow1.
 const dog1 = new Animal(2, 4, true, true);
 const cow1 = new Animal(2, 4, true, false);
@@ -135,10 +135,10 @@ class Cow extends Animal {
     }
 }
 
-const cat1 = new Cat("Orange", true, false);
-const cat2 = new Cat("Black and White", false, false);
-const dog1 = new Dog("Gold", true, true);
-const cow1 = new Cow("Brown", true, false);
+// const cat1 = new Cat("Orange", true, false);
+// const cat2 = new Cat("Black and White", false, false);
+// const dog1 = new Dog("Gold", true, true);
+// const cow1 = new Cow("Brown", true, false);
 
 //////////////////////////////////
 // Encapsulation  & Abstraction //
@@ -231,7 +231,7 @@ similarly polymorphic.
 ///////////////////////////////////
 
 ///////// The older way /////////
-const cat1 = new Cat('orange', true, false); //This only works if speak() was defined as a non-static method inside the class.
+// const cat1 = new Cat('orange', true, false); //This only works if speak() was defined as a non-static method inside the class.
 cat1.speak();
 //////////////////////////////////
 
